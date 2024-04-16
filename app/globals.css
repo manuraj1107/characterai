@@ -1,13 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
-
+@layer base {
+  @font-face {
+    font-family: "Manrope", sans-serif;
+    src: url(/fonts/Roboto.woff2) format('woff2');
+  }
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -24,10 +31,17 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    appearance: none;
+    scrollbar-width: 0px;
+    scrollbar-color:transparent;
+    text-decoration: none;
+  
+  
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+  
 }
