@@ -80,8 +80,8 @@ const Discover = () => {
                             </div>
                           </div>
 
-                <div className="swiper-wrapper relative ml-[600px] flex">
-                  <div className="swiper-slide swiper-slide-active px-2 w-auto">
+                <div className=" relative ml-[600px] flex">
+                  <div className=" px-2 w-auto">
                     <div className="opacity-90 transform-none">
                       <div className="rounded-xl p-4 bg-zinc-900 flex-col flex gap-4 card-effect h-[280px] w-[280px]">
                   <a className="flex flex-col gap-4 h-full w-full group" href="#chat">
@@ -98,7 +98,7 @@ const Discover = () => {
                             </div>
                             </div>
 
-                    <div className="swiper-slide swiper-slide-next px-2 w-auto">
+                    <div className=" px-2 w-auto">
                       <div className="opacity-90 transform-none">
                          <div className=" p-4 flex flex-col gap-4 card-effect bg-zinc-900 card-effect rounded-xl h-[280px] w-[280px]">
                               <a class="flex flex-col gap-4 h-full w-full" href="#chat2">
@@ -125,7 +125,7 @@ const Discover = () => {
                           </div>
                           <div>
                              <div className="overflow-hidden">
-                               <div className="swiper-wrapper overflow-x-scroll  snap-x flex gap-2 overflow-hidden outline-none appearance-none">
+                               <div className=" overflow-x-scroll  snap-x flex gap-2 overflow-hidden outline-none appearance-none">
                                  <Card_type1 name={'Hinata Hyuga'} author={'@hyugaclan'} bio={'Inside different dimension'} comment={'223k'} pic={'https://characterai.io/i/80/static/avatars/uploaded/2022/12/20/Nl8tKL8joIn0Ljq-Ef602vQIpAnzTvoDctQuLwTLbpQ.webp?webp=true&anim=0'} />
                                  <Card_type1 name={'Gojo Saturo'} author={'@6eyecorp'} bio={'Yet to make comeback'} comment={'77.6m'} pic={'https://characterai.io/i/400/static/avatars/uploaded/2022/11/16/nJChvURCkNMUWYAcg_Wgt2NHq3WeBkGWiCmMC1J1cHk.webp?webp=true&anim=0'} />
                                  <Card_type1 name={'Elon Musk'} author={'@elonwhisperer'} bio={'Founder of Spacex'} comment={'4.6m'} pic={'https://characterai.io/i/400/static/avatars/uploaded/2023/8/4/G9UzZ-o-hqkQd6tDQGOrighLbVlWqZBMA1MXJrwj-h8.webp?webp=true&anim=0'} />
@@ -167,7 +167,7 @@ const Discover = () => {
                     <div>
                        <div className="">
                          <div className="">
-                           <div className="swiper-slide  overflow-x-scroll snap-x swiper-slide-visible w-auto flex gap-2">
+                           <div className=" overflow-x-scroll snap-x swiper-slide-visible w-auto flex gap-2">
                                  <Card_type1 name={'Saitama'} author={'@1handtechr'} bio={'Horse power in one hand'} comment={'408k'} pic={'https://characterai.io/i/400/static/avatars/uploaded/2022/10/6/qHO2fZ4bR4wEx6I2DgrwrfVb1z8KtKZviuQ6lPqCN_w.webp?webp=true&anim=0'} />
                                  <Card_type1 name={'Giga Chad'} author={'@donthurt'} bio={'Old instagram trend'} comment={'77k'} pic={'https://characterai.io/i/400/static/avatars/uploaded/2023/4/8/KHtyRgUHq43hvydN2PstxTO5TS2CNgHJH74A8DC7cIg.webp?webp=true&anim=0'} />
                                  <Card_type1 name={'Hinata Hyuga'} author={'@hyugaclan'} bio={'Inside different dimension'} comment={'223k'} pic={'https://characterai.io/i/80/static/avatars/uploaded/2022/12/20/Nl8tKL8joIn0Ljq-Ef602vQIpAnzTvoDctQuLwTLbpQ.webp?webp=true&anim=0'} />
@@ -209,7 +209,7 @@ const Discover = () => {
                             }  
                             
                           </div>
-                          <div className="swiper-button-next"></div>
+                          <div className=""></div>
                         </div>
                       </div>
                         <div id="content-Anime Game Character" className="mt-2 ring-offset-background data-[state=inactive]:hidden w-full">
@@ -217,7 +217,7 @@ const Discover = () => {
                                <div className="w-full h-full">
                                  <div className="mb-4 ml-4"><div></div> </div>
                                  <div>
-                                  <div className="swiper swiper-initialized swiper-horizontal swiper-free-mode swiper-watch-progress shelfSwiper">
+                                  <div className="">
                                     <div className="swipper-wrapper overflow-x-scroll flex gap-2 snap-x">
                                     <Card_type1 name={'Hinata Hyuga'} author={'@hyugaclan'} bio={'Inside different dimension'} comment={'223k'} pic={'https://characterai.io/i/80/static/avatars/uploaded/2022/12/20/Nl8tKL8joIn0Ljq-Ef602vQIpAnzTvoDctQuLwTLbpQ.webp?webp=true&anim=0'} />
                                  <Card_type1 name={'Saitama'} author={'@1handtechr'} bio={'Horse power in one hand'} comment={'408k'} pic={'https://characterai.io/i/400/static/avatars/uploaded/2022/10/6/qHO2fZ4bR4wEx6I2DgrwrfVb1z8KtKZviuQ6lPqCN_w.webp?webp=true&anim=0'} />
@@ -238,7 +238,7 @@ const Discover = () => {
                     <div className="w-full flex flex-col gap-4 mb-4 pr-2">
                        <p className="ml-4  text-base">Try saying</p>
                        <div className="relative group w-full flex">
-                         <div className="swiper overflow-x-scroll swiper-initialized swiper-horizontal swiper-free-mode swiper-watch-progress shelfSwiper h-auto swiper-backface-hidden">
+                         <div className="overflow-x-scroll ">
                            <div className="snap-x  flex gap-2">
                           <Card_type3 />                             
                           <Card_type3 />                             
